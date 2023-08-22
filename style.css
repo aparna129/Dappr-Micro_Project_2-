@@ -1,0 +1,248 @@
+.third-section {
+  display: flex;
+  background-color: #483eff;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  border-radius: 21px;
+  height: 60vh;
+  margin-bottom: 10vh;
+}
+
+.third-section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.third-section-left button {
+  padding: 15px 35px;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 12px;
+  color: white;
+  font-weight: 700;
+  border-style: solid;
+  font-family: "DM Sans", sans-serif;
+}
+
+.third-section-left button:first-of-type {
+  background: #bce0f6;
+  color: black;
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+
+.third-section-right {
+  box-sizing: border-box;
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  margin: 2% 0 2% 0;
+  border-radius: 20px;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.info-heading {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+  font-family: "Inter", sans-serif;
+}
+
+.info {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.info span {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+
+.next-button {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+.next-button img {
+  width: 20px;
+  margin-left: 7px;
+}
+.second-section {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20vh;
+}
+
+.box {
+  width: 21%;
+  padding: 10px 15px;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  border-radius: 11px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.box-1 {
+  background: #929dff;
+}
+.box-2 {
+  background: #734cf2;
+}
+.box-3 {
+  background: #d288ff;
+}
+.box-4 {
+  background: #000000;
+}
+.help {
+  background-color: white;
+  border-radius: 100%;
+  position: fixed;
+  right: 4.5vw;
+  bottom: 3vh;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.help img {
+  width: 50px;
+  height: 50px;
+}
+.navbar {
+  display: flex;
+  background-color: #6f6af7;
+  margin: auto;
+  color: white;
+  font-family: DM Sans;
+  font-weight: 400;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+
+.navbar-logo {
+  font-family: "Delius Unicase", cursive;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.navbar-hamburger img {
+  height: 25px;
+}
+
+.navbar-options ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar-options ul li {
+  margin-right: 15px;
+}
+
+.navbar-options ul li select {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-options ul li input {
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+}
+
+.navbar-options ul li:last-of-type {
+  position: relative;
+}
+
+.navbar-options ul li img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 16px;
+}
+.first-section {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: 60px;
+  margin-top: 120px;
+  margin-bottom: 10vh;
+}
+
+.first-section-img img {
+  height: 50vh;
+}
+
+.first-section-box {
+  background-color: #e5d8ff;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  border-radius: 20px;
+  height: 45vh;
+  width: 75%;
+  box-sizing: border-box;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.first-section-box p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #6f7373;
+  font-family: "DM Sans", sans-serif;
+}
+.social {
+  position: sticky;
+  top: 60px;
+  margin-top: 12vh;
+  float: right;
+}
+
+.social img {
+  height: 40px;
+  display: block;
+  width: fit-content;
+}
+
+body {
+  margin: 0;
+}
